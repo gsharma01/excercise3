@@ -1,7 +1,7 @@
 name: advanced workflow
 env:
  WORKFLOW_VAR: "This variable is declared at the workflow level"
- 
+
 on:
  workflow_dispatch:
 jobs:
@@ -37,4 +37,4 @@ jobs:
        shell: bash
        run: |
          echo this is the second job
-         echo and this is a multi-line script         
+         echo and this is a multi-line script
