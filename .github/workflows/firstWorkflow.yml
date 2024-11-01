@@ -5,14 +5,14 @@ jobs:
  firstjob:
    runs-on: self-hosted
    steps:
-     - name: firstJob script
+    - name: firstJob script
        shell: bash
        run: echo Hello World! This is the first job
  
  secondjob:
    runs-on: ubuntu-latest
    steps:
-     - name: secondJob script
+    - name: secondJob script
        shell: bash
        run: |
          echo this is the second job
